@@ -37,4 +37,6 @@ Pod::Spec.new do |s|
 
   s.source_files  = "HTPageControllerView/*.{h,m}"
 
+  s.dependency   'HTCommonUtility', '~>0.0.1'
+
 end
