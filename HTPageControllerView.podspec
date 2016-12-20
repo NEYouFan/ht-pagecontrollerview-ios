@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTPageControllerView"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of HTPageControllerView."
+  s.version      = "0.0.2"
+  s.summary      = "网易标准化之 HTPageControllerView."
 
   s.description  = <<-DESC
                    A longer description of HTPageControllerView in Markdown format.
                    DESC
 
-  s.homepage     = "https://github.com/NEYouFan/HTPageControllerView-iOS.git"
+  s.homepage     = "https://github.com/NEYouFan/ht-pagecontrollerview-ios"
 
 
   s.license      = "MIT"
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
 
-  s.source       = { :git => "https://github.com/NEYouFan/HTPageControllerView-iOS.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/NEYouFan/ht-pagecontrollerview-ios.git", :tag => s.version.to_s }
 
   s.source_files  = "HTPageControllerView/*.{h,m}"
 
