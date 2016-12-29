@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTPageControllerView"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "网易标准化之 HTPageControllerView."
 
   s.description  = <<-DESC
