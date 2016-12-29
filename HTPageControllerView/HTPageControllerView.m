@@ -35,7 +35,7 @@ const static NSUInteger kPreloadControllerCount = 4;
         self.pagingEnabled = YES;
         self.showsHorizontalScrollIndicator = NO;
         self.showsVerticalScrollIndicator = NO;
-#warning 需要增加scrollToTop = NO;
+//#warning 需要增加scrollToTop = NO;
         [self addObserver:self forKeyPath:@"pageDataSource" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
     }
     
@@ -297,7 +297,7 @@ const static NSUInteger kPreloadControllerCount = 4;
 
 //如果vc在一开始的时候，就加入到parent vc中，而parent vc并没有显示出来，那么档parent vc显示的时候，page controller接收不到view appear事件。 如果parent vc已经显示了，那么显示新的page view controller的时候，添加page view controller的view的时候，会接收到view appear事件。
 #pragma mark - view controller events
-#warning 生命周期需要修改
+//#warning 生命周期需要修改
 - (void)viewWillAppear:(BOOL)animated
 {
     for (NSNumber *key in _controllers) {
