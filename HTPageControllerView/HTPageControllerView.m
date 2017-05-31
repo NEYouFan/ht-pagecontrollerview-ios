@@ -99,6 +99,7 @@ const static NSUInteger kPreloadControllerCount = 4;
         newPageIndex = 0;
     }
     
+    _currentPageIndex = -1;
     [self loadAllPlaceHolders];
     [self layoutIfNeeded];
     [self scrollToPageIndex:newPageIndex animated:YES];
